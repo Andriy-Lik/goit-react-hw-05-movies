@@ -1,0 +1,28 @@
+.Header {
+    border-bottom: 3px solid #ECECEC;
+    font-size: 20px;
+    color: black;
+}
+
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.HeaderList {
+    display: flex;
+    padding: 20px 0;
+}
+
+.HeaderItem {
+    margin-right: 15px;
+}
+
+.HeaderItem:last-child {
+    margin-right: 0;
+}
+
+.HeaderItem:hover,
+.HeaderItem:focus {
+    scale: 1.1;
+}

@@ -1,0 +1,22 @@
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.HomeTitle {
+    margin: 20px 0 10px 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.HomeItem {
+    margin-bottom: 5px;
+}
+
+.HomeItem:last-child {
+    margin-bottom: 0;
+}
+
+.HomeItem:hover {
+    color: Orchid;
+}

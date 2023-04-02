@@ -1,0 +1,53 @@
+.MoviesSection {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.MoviesForm {
+    margin-bottom: 20px;
+}
+
+.MoviesInput {
+    margin-right: 10px;
+    width: 300px;
+    height: 30px;
+    padding: 0;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+
+.MoviesInput:hover,
+.MoviesInput:focus {
+    border: 2px solid Orchid; 
+}
+
+.MoviesBtn {
+    width: 120px;
+    height: 30px;
+    margin-left: auto;
+    padding: 0;
+    background-color: rgb(218, 112, 214, 0.8);
+    color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.MoviesBtn:hover,
+.MoviesBtn:focus {
+    background-color: Orchid;
+    scale: 1.1;
+}
+
+.MoviesItem {
+    margin-bottom: 5px;
+}
+
+.MoviesItem:last-child {
+    margin-bottom: 0;
+}
+
+.MoviesItem:hover,
+.MoviesItem:focus {
+    color: Orchid;
+}

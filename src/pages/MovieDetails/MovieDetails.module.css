@@ -1,0 +1,84 @@
+
+
+.Container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.BackLink {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.BackLink:hover,
+.BackLink:focus {
+    color: Orchid;
+}
+
+.BackLinkIcon {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.Movie {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.MovieImg {
+    margin-right: 20px;
+}
+
+.MovieTitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.MovieScore {
+    margin-bottom: 10px;
+}
+
+.MovieTitleOverview {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.MovieOverview {
+    margin-bottom: 10px;
+}
+
+.MovieTitleGenres {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.MovieInfo {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-top: 3px solid #ECECEC;
+    border-bottom: 3px solid #ECECEC;
+}
+
+.MovieInfoTitle {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.MovieInfoItem {
+    margin-bottom: 5px;
+}
+
+.MovieInfoItem:last-child {
+    margin-bottom: 0;
+}
+
+.MovieInfoItem:hover {
+    color: Orchid;
+}

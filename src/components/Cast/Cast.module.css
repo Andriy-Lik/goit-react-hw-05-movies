@@ -1,0 +1,40 @@
+.CastSection {
+    margin-bottom: 10px;
+}
+
+.CastList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+
+.CastItem {
+    max-width: 200px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.CastImg {
+    display: block;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.CastTitle {
+    margin-bottom: 10px;
+    padding: 0 5px;
+    font-weight: 600;
+    text-align: center;
+    max-width: 200px;
+}
+
+.CastCharacter {
+    max-width: 200px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    font-weight: 400;
+    text-align: center;
+}
